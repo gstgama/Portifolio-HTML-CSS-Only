@@ -487,6 +487,7 @@ footer div img {
 .skills-section-items div {
   align-items: center;
   padding: 20px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
 
@@ -513,6 +514,26 @@ footer div img {
   height: 140px;
 }
 
+.angular img {
+  height: 170px;
+}
+.angular p{
+  color: #ff0000;
+}
+
+.typescript p,
+.typescript img {
+  color: #0b6dff;
+  font-size: 25px;
+}
+
+.bootstrap p,
+.bootstrap img {
+  color: #3f0086;
+  font-size: 25px;
+}
+
+
 .html p,
 .html img {
   color: #f06428;
@@ -521,6 +542,12 @@ footer div img {
 .css p,
 .css img {
   color: #4099d5;
+}
+
+.javascript p,
+.javascript img {
+  color: #bdb000;
+  font-size: 20px;
 }
 
 .sql p,
